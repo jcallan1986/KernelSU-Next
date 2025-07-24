@@ -336,7 +336,10 @@ static bool is_system_bin_su(void)
         "/system/bin/su",
         "/vendor/bin/su",
         "/product/bin/su",
-        "/system_ext/bin/su"
+        "/system_ext/bin/su",
+		"/odm/bin/su",
+		"/system/xbin/su",
+		"/system_ext/xbin/su"
     };
     char path_buf[256];
     char *pathname;
